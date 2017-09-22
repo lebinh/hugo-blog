@@ -1,0 +1,29 @@
+baseURL = "https://lebinh.github.io/"
+languageCode = "en-us"
+title = "Turtles all the way down"
+theme = "minimo"
+
+[params]
+  description = "My semi-organized notes about random things I broke or fixed."
+  dateFormat = "2006, Jan 2"
+  copyrightOwner = "Binh Le"
+  copyrightStartYear = "2017"
+  favicon = "favicon.ico"
+  hideEntryNavigation = false
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
+  hideSocialMenu = false
+  showReadTime = true
+
+[author]
+  name = "Binh Le"
+
+[author.social]
+  email = "lebinh DOT it AT <big G email>"
+  github = "lebinh"
+  instagram = "lebinh"
+  twitter = "lebinh"
+
+[permalinks]
+  page = "/:slug/"
+
