@@ -6,13 +6,9 @@ build:
 	hugo
 
 deploy:
-	cd public
-	git add .
 ifdef msg
-	git commit -m '$(msg)'
+	$(MAKE) -C public deploy msg=$(msg)
 else
-	git commit -m 'site deploy'
-	git push origin master
-	cd ..
+	$(MAKE) -C public deploy msg='site deploy'
 endif
 
