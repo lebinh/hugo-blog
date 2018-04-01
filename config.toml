@@ -1,29 +1,69 @@
-baseURL = "https://lebinh.github.io/"
-languageCode = "en-us"
-title = "Turtles all the way down"
+baseURL = "https://thisisbinh.me/"
+title = "Hi, this is Binh."
 theme = "minimo"
 
-[params]
-  description = "My semi-organized notes about random things I broke or fixed."
-  dateFormat = "2006, Jan 2"
-  copyrightOwner = "Binh Le"
-  copyrightStartYear = "2017"
-  favicon = "favicon.ico"
-  hideEntryNavigation = false
-  customCSS = ["css/custom.css"]
-  customJS = ["js/custom.js"]
-  hideSocialMenu = false
-  showReadTime = true
+Paginate = 5
+preserveTaxonomyNames = true
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
 
 [author]
-  name = "Binh Le"
+name = "Binh Le"
 
-[author.social]
-  email = "lebinh DOT it AT <big G email>"
-  github = "lebinh"
-  instagram = "lebinh"
-  twitter = "lebinh"
+[params.info]
+description = "He is a Vietnamese living in Singapore, and also an SRE at Cloudflare. And this is his notes about random things he broke or fixed around computers."
+
+[params.assets]
+favicon = "favicon.ico"
+#customCSS = ["css/custom.css"]
+#customJS = ["js/custom.js"]
+
+[params.copyright]
+prefix = ""
+holder = "Binh Le"
+startYear = "2018"
+suffix = ""
+
+[params.settings]
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideSocialMenu = false
+showReadingTime = true
+noTermCloudShuffle = false
+
+[params.widgets]
+homepage = ["recent_posts"]
+
+[params.social]
+email = "lebinh DOT it AT <big G email>"
+github = "lebinh"
+instagram = "lebinh"
+twitter = "lebinh"
+linkedin = "lebinh"
+
+[params.social.config]
+platforms = ["email","github","twitter","instagram","linkedin"]
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
 
 [permalinks]
-  page = "/:slug/"
+page = "/:slug/"
 
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1

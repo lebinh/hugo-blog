@@ -7,7 +7,7 @@ build:
 
 deploy:
 ifdef msg
-	$(MAKE) -C public deploy msg=$(msg)
+	$(MAKE) -C public deploy msg="$(msg)"
 else
 	$(MAKE) -C public deploy msg='site deploy'
 endif
