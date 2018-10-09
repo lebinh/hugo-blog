@@ -1,13 +1,12 @@
 ---
 title: "Bản đồ mật đồ dân số Việt Nam"
 date: 2018-10-09T18:56:49+07:00
+cover: vn-population-density.svg
 ---
-
-![vn-population-density.svg](./vn-population-density.svg)
 
 Ghi chú lại quá trình tạo ra một choropleth map của mật độ dân số Việt Nam từ hướng dẫn [Command-Line Cartography](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c) của Mike Bostock. Ghi chú này vốn là [một Jupyter notebook](https://github.com/lebinh/vietnam-choropleth-map/blob/master/vietnam-choropleth-map.ipynb).
 
-**[Choropleth map](https://en.wikipedia.org/wiki/Choropleth_map)** là một dạng bản đồ chuyên đề ([thematic map](https://en.wikipedia.org/wiki/Thematic_map)) trong đó các khu vực được tô màu hay đánh dấu tương ứng với một giá trị nào đó, ví dụ như là mật độ dân số. Trong bản đồ ở trên, mật độ dân số từ thấp tới cao được thể hiện bằng màu sắc từ nhạt tới đậm.
+**[Choropleth map](https://en.wikipedia.org/wiki/Choropleth_map)** là một dạng bản đồ chuyên đề ([thematic map](https://en.wikipedia.org/wiki/Thematic_map)) trong đó các khu vực được tô màu hay đánh dấu tương ứng với một giá trị nào đó, ví dụ như là mật độ dân số. Trong bản đồ ở trên, mật độ dân số từ thấp tới cao được thể hiện bằng màu sắc từ nhạt tới đậm. Choropleth map là một trong những dạng bản đồ đẹp nhất mà mình biết, đáng tiếc là phần lớn ví dụ hay công cụ tạo ra nó đều chủ yếu xoay quanh bản đồ các bang hay các quận của Mỹ. Vậy nên đây là một chút cố gắng để việc tạo ra choropleth map với bản đồ Việt Nam dễ dàng hơn.
 
 ## Phần 1 - Bản đồ
 
