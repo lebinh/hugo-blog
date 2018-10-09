@@ -1,7 +1,7 @@
 ---
 title: "Bản đồ mật đồ dân số Việt Nam"
 date: 2018-10-09T18:56:49+07:00
-cover: vn-population-density.svg
+cover: /vn-population-density.png
 ---
 
 Ghi chú lại quá trình tạo ra một choropleth map của mật độ dân số Việt Nam từ hướng dẫn [Command-Line Cartography](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c) của Mike Bostock. Ghi chú này vốn là [một Jupyter notebook](https://github.com/lebinh/vietnam-choropleth-map/blob/master/vietnam-choropleth-map.ipynb).
