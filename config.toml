@@ -5,9 +5,12 @@ theme = "minimo"
 Paginate = 5
 preserveTaxonomyNames = true
 enableRobotsTXT = true # generate robots.txt
+enableEmoji = true
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
+pygmentsStyle = "tango"
+
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
@@ -15,11 +18,11 @@ defaultContentLanguage = "en"
 name = "Binh Le"
 
 [params.info]
-description = "He is a Vietnamese living in Singapore, and also an SRE at Cloudflare. And this is his notes about random things he broke or fixed around computers."
+description = "He is a Vietnamese living in Singapore, and also an SRE at Cloudflare. And this is his notes about random things he made or broke around computers."
 
 [params.assets]
 favicon = "favicon.ico"
-#customCSS = ["css/custom.css"]
+customCSS = ["css/custom.css"]
 #customJS = ["js/custom.js"]
 
 [params.copyright]
@@ -30,24 +33,21 @@ suffix = ""
 
 [params.settings]
 dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02 — "
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideSocialMenu = false
 showReadingTime = true
 noTermCloudShuffle = false
-
-[params.widgets]
-homepage = ["recent_posts"]
+accentColor = "#FF4500"
 
 [params.social]
-email = "lebinh DOT it AT <big G email>"
+email = "lebinh.it@gmail.com"
 github = "lebinh"
-instagram = "lebinh"
 twitter = "lebinh"
 linkedin = "lebinh"
 
 [params.social.config]
-platforms = ["email","github","twitter","instagram","linkedin"]
+platforms = ["email","github","twitter","linkedin"]
 
 [params.seo]
 # Title Separator: - – — · • * ⋆ | ~ « » < >
@@ -67,3 +67,7 @@ page = "/:slug/"
 lang = "en"
 languageName = "English"
 weight = 1
+
+[params.widgets]
+homepage = ["recent_posts"]
+footer = ["social_menu"]

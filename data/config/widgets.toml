@@ -1,0 +1,7 @@
+[about]
+title = "This is Binh"
+description = " "
+logo = "/images/logo.png"
+
+[social_menu]
+platforms = ["email", "github", "twitter", "linkedin"]
