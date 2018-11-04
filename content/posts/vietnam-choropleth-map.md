@@ -1,5 +1,5 @@
 ---
-title: "Bản đồ mật đồ dân số Việt Nam"
+title: "Bản đồ mật độ dân số Việt Nam"
 date: 2018-10-09T18:56:49+07:00
 cover: /vn-population-density.png
 ---
