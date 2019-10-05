@@ -6,6 +6,8 @@ Paginate = 5
 preserveTaxonomyNames = true
 enableRobotsTXT = true # generate robots.txt
 enableEmoji = true
+googleAnalytics = "UA-331203-8"
+
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
@@ -18,7 +20,7 @@ defaultContentLanguage = "en"
 name = "Binh Le"
 
 [params.info]
-description = "He is a Vietnamese living in Singapore, and also an SRE at Cloudflare. And this is his notes about random things he made or broke around computers."
+description = "He is a Vietnamese living in Sydney, SRE at Google (previously Cloudflare), husband and father of one. This is his personal stream of random thoughts and things."
 
 [params.assets]
 favicon = "favicon.ico"
